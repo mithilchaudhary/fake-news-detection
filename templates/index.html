@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/styles.css">
+  </head>
+  <body>
+    <div class="bgimg">
+     <section>
+
+      <hgroup>
+          <h2>Welcome back!</h2>
+        <p>Please enter your details to sign into your account</p>
+      </hgroup>
+    
+      <form method = "POST" class = "log-form">
+    
+          <div class="group log-input">
+            <input type="text"  name = "news" placeholder = "Enter News">
+          </div>
+        <!-- id = username -->
+            <div class="group log-prediction">
+              <p> News : {{news_result}} </p>
+            </div>
+        <!-- 	    <span class="check left-align">
+              <input type="checkbox">
+              <label>Remember Me</label>
+          </span>
+    
+          <a class = "right-align" href="#">Forgot Password</a> -->
+    
+        
+    
+        <div class="container-log-btn">
+              <button type="submit" class="log-form-btn">
+                <span>Submit</span>
+              </button>
+            </div>
+    
+      </form>
+    
+      
+    
+     </section>
+    </div>
+  </body>
+</html>
